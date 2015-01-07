@@ -16,6 +16,13 @@ module Ruboty
         private
 
         def grow_xa
+          keyword = message[:keyword]
+          keyword.gsub!(/(。+)/, make_xa)
+          keyword.gsub!(/(、+)/, make_xa)
+          keyword.gsub!(/(!+)/, make_xa)
+          keyword.gsub!(/($)/, make_xa)
+          keyword.gsub!(/(\r\n|\r|\n)/, make_xa)
+          keyword
         end
 
         def make_xa
