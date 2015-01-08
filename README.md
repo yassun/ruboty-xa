@@ -1,6 +1,6 @@
 # Ruboty::Xa
 
-TODO: Write a gem description
+grow the grass.
 
 ## Installation
 
@@ -20,12 +20,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+> ruboty xa 草、不可避。
+草ｗｗｗｗｗ不可避ｗＷｗｗ
+```
 
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/ruboty-xa/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
